@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="OGC-p5-0n6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--社区-->
+        <scene sceneID="4sL-hV-Vde">
+            <objects>
+                <navigationController id="OGC-p5-0n6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="社区" id="jfZ-xF-fig"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yne-sl-8iA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JZv-Qc-M4u" kind="relationship" relationship="rootViewController" id="HyW-DD-c29"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlI-ef-H5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292.80000000000001" y="247.07999999999998"/>
+        </scene>
+        <!--社区-->
+        <scene sceneID="9sM-ms-hVU">
+            <objects>
+                <viewController id="JZv-Qc-M4u" customClass="ThreeViewController" customModule="Storyboard_Reference_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hy8-sS-8gv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Blf-3Z-Dd9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bS7-55-Nc4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="社区" id="bVD-7u-9K1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LjY-yK-gr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66" y="281"/>
+        </scene>
+    </scenes>
+</document>
